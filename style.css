@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* top style header ------------------------------------- */
+.top {
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    size: 16px;
+    background-color: rgb(25, 163, 218);
+    color: white;
+    width: 100%;
+}
+.cant{
+    
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.madie{
+    display: flex;
+    justify-self: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+  
+}
+
+/* header -----------------------------------*/
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    
+}
+.icon{
+    font-size: 50px;
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.elements a{
+    text-decoration: none;
+    color: rgb(104, 105, 103);
+    
+}
+
+/* hero -----------------------------------*/
+.hero{
+    height: 600px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: turquoise;
+    border: none;
+   
+}
+.btn2{
+    height: 50px;
+    width: 150px;
+    color:turquoise ;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+/*--------------------- grid round ---------------*/
+.father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.cicon{
+    display: flex;
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgba(45, 117, 45, 0.4);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+/*--------------------- grid cards ----------------*/
+
+.card1{
+    
+    width: 400px;
+    height: 450px;
+    margin: 5px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+
+
+/* ----------------------- sec4 ------------------- */
+.sec4 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(170, 169, 169);
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------- sec5 ------------------- */
+.sec5 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 20px;
+
+}
+
+/* ----------------------- footer1 ------------------- */
+
+.footer{
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(34, 33, 33);
+    padding: 20px;
+}
+
+.col {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+/* ----------------------- footer2 ------------------- */
+
+.footer2{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 10px;
+    height: 70px;
+    align-items: center;
+}
